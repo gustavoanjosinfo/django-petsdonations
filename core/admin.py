@@ -1,6 +1,5 @@
 from django.contrib import admin
 
-from core.models import Espécie, Raça
+from core.models import Acompanhamento_animal 
 
-admin.site.register(Espécie)
-admin.site.register(Raça)
+admin.site.register(Acompanhamento_animal)
